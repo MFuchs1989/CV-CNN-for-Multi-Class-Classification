@@ -1,0 +1,8 @@
+C:.
+│   CV - Multi CNN.ipynb
+│   preprocessing_multi_CNN.py
+│
+├───cats
+├───dogs
+├───test_pictures
+└───wilds

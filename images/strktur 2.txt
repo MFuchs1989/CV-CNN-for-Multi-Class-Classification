@@ -1,0 +1,26 @@
+C:.
+│   CV - Multi CNN.ipynb
+│   preprocessing_multi_CNN.py
+│
+├───animals
+│   ├───test
+│   │   ├───cats
+│   │   ├───dogs
+│   │   └───wilds
+│   ├───train
+│   │   ├───cats
+│   │   ├───dogs
+│   │   └───wilds
+│   └───validation
+│       ├───cats
+│       ├───dogs
+│       └───wilds
+├───cats
+├───ckpt_1_CNN_with_augm
+│       Animals_CNN_4_Conv_F32_64_128_128_epoch_60_es.h5
+│       class_assignment_df_Animals_CNN_4_Conv_F32_64_128_128_epoch_60_es.csv
+│       history_df_Animals_CNN_4_Conv_F32_64_128_128_epoch_60_es.csv
+│
+├───dogs
+├───test_pictures
+└───wilds
