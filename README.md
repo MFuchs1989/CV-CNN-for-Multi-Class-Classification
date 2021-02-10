@@ -203,9 +203,3 @@ I also publish individual interesting sections from my publications in separate 
 ## References
 
 Chollet, F. (2018). Deep learning with Python (Vol. 361). New York: Manning.
-
-Goodfellow, I., Bengio, Y., Courville, A., & Bengio, Y. (2016). Deep learning (Vol. 1, No. 2). Cambridge: MIT press.
-
-Khan, S., Rahmani, H., Shah, S. A. A., & Bennamoun, M. (2018). A guide to convolutional neural networks for computer vision. Synthesis Lectures on Computer Vision, 8(1), 1-207.
-
-Szeliski, R. (2010). Computer vision: algorithms and applications. Springer Science & Business Media.
