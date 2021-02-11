@@ -31,7 +31,7 @@ How I proceeded exactly and what results I achieved can be read in my blog post:
 For this repository I wrote a preprocessing_multi_CNN.py file which automatically randomizes the provided image data and divides it into a training, validation and test part. 
 This is followed by model training using a CNN. 
 The storage of the best model as well as the safeguarding of all important metrics during the model training is also fully automatic. 
-This is a best practice guideline on how to create a binary image classifier and bring it to production. 
+This is a best practice guideline on how to create a Multi-Label image classifier and bring it to production. 
 
 
 <a name="software_requirements"></a>
