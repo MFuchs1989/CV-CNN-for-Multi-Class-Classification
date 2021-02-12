@@ -206,6 +206,6 @@ I also publish individual interesting sections from my publications in separate 
 
 ## References
 
-The content of the entire post was created using the following sources:
+The content of the entire Repository was created using the following sources:
 
 Chollet, F. (2018). Deep learning with Python (Vol. 361). New York: Manning.
