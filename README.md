@@ -74,7 +74,7 @@ The current folder structure should look like this:
 
 ```
 C:.
-│   CV - Multi CNN.ipynb
+│   CV - CNN for Multi-Class Classification.ipynb
 │   preprocessing_multi_CNN.py
 │
 ├───cats
