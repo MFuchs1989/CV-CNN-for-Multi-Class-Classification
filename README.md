@@ -1,10 +1,10 @@
 
-# Computer Vision: CNN for Multi-Label Classification
+# Computer Vision: CNN for Multi-Class Classification
 
 ![main_pic](images/main_pic.png)
 
 The goal of this project is to use a convolutional neural network (CNN) to determine cats, dogs and predatory cats pictures. 
-How I proceeded exactly and what results I achieved can be read in my blog post: [Computer Vision - CNN for Multi-Label Classification](https://michael-fuchs-python.netlify.app/2021/01/15/computer-vision-cnn-for-multi-label-classification/)
+How I proceeded exactly and what results I achieved can be read in my blog post: [Computer Vision - CNN for Multi-Class Classification](https://michael-fuchs-python.netlify.app/2021/01/15/computer-vision-cnn-for-multi-label-classification/)
 
 
 ## Table of Contents
@@ -31,7 +31,7 @@ How I proceeded exactly and what results I achieved can be read in my blog post:
 For this repository I wrote a preprocessing_multi_CNN.py file which automatically randomizes the provided image data and divides it into a training, validation and test part. 
 This is followed by model training using a CNN. 
 The storage of the best model as well as the safeguarding of all important metrics during the model training is also fully automatic. 
-This is a best practice guideline on how to create a Multi-Label image classifier and bring it to production. 
+This is a best practice guideline on how to create a Multi-Class image classifier and bring it to production. 
 
 
 <a name="software_requirements"></a>
@@ -62,7 +62,7 @@ Please run ```pip install -r requirements.txt```
 3. Download the [cats dataset](https://github.com/MFuchs1989/Datasets-and-Miscellaneous/tree/main/datasets/Computer%20Vision/CNN%20for%20Multi%20Label%20Classification/cats). Unzip the folder and place the images in the cloned repository in the folder ```cats```. If the folder does not exist yet, please create one. 
 4. Download the [dogs dataset](https://github.com/MFuchs1989/Datasets-and-Miscellaneous/tree/main/datasets/Computer%20Vision/CNN%20for%20Multi%20Label%20Classification/dogs). Unzip the folder and place the images in the cloned repository in the folder ```dogs```. If the folder does not exist yet, please create one. 
 5. Download the [wilds dataset](https://github.com/MFuchs1989/Datasets-and-Miscellaneous/tree/main/datasets/Computer%20Vision/CNN%20for%20Multi%20Label%20Classification/wilds). Unzip the folder and place the images in the cloned repository in the folder ```wilds```. If the folder does not exist yet, please create one. 
-6. Start the notebook ```CV - CNN for Multi-Label Classification.ipynb```.
+6. Start the notebook ```CV - CNN for Multi-Class Classification.ipynb```.
 
 
 
@@ -119,7 +119,7 @@ The final folder structure should now look like this:
 
 ```
 C:.
-│   CV - Multi CNN.ipynb
+│   CV - CNN for Multi-Class Classification.ipynb
 │   preprocessing_multi_CNN.py
 │
 ├───animals
@@ -170,14 +170,14 @@ Here are a few more test predictions:
 
 ## Link to the Publication
 
-Here is the link to my blog post: [Computer Vision - CNN for Multi-Label Classification](https://michael-fuchs-python.netlify.app/2021/01/15/computer-vision-cnn-for-multi-label-classification/).
+Here is the link to my blog post: [Computer Vision - CNN for Multi-Class Classification](https://michael-fuchs-python.netlify.app/2021/01/15/computer-vision-cnn-for-multi-label-classification/).
 
 If this repository/publication helped you, you are welcome to read other blog posts I wrote on the topic of Computer Vision:
 
 + [Classification of Dog-Breeds using a pre-trained CNN model](https://michael-fuchs-python.netlify.app/2021/01/27/classification-of-dog-breeds-using-a-pre-trained-cnn-model/)
-+ [CNN with TFL and Fine-Tuning for Multi-Label Classification](https://michael-fuchs-python.netlify.app/2021/01/24/cv-cnn-with-tfl-and-fine-tuning-for-multi-label-classification/)
++ [CNN with TFL and Fine-Tuning for Multi-Class Classification](https://michael-fuchs-python.netlify.app/2021/01/24/cv-cnn-with-tfl-and-fine-tuning-for-multi-label-classification/)
 + [CNN with TFL and Fine-Tuning](https://michael-fuchs-python.netlify.app/2021/01/22/cv-cnn-with-tfl-and-fine-tuning/)
-+ [CNN with Transfer Learning for Multi-Label Classification](https://michael-fuchs-python.netlify.app/2021/01/19/cv-cnn-with-transfer-learning-for-multi-label-classification/)
++ [CNN with Transfer Learning for Multi-Class Classification](https://michael-fuchs-python.netlify.app/2021/01/19/cv-cnn-with-transfer-learning-for-multi-label-classification/)
 + [CNN with Transfer Learning](https://michael-fuchs-python.netlify.app/2021/01/17/computer-vision-cnn-with-transfer-learning/)
 + [Convolutional Neural Network](https://michael-fuchs-python.netlify.app/2021/01/08/computer-vision-convolutional-neural-network/)
 + [Automate The Boring Stuff](https://michael-fuchs-python.netlify.app/2021/01/01/computer-vision-automate-the-boring-stuff/)
